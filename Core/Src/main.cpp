@@ -2,7 +2,8 @@
 /**
   ******************************************************************************
   * @file           : main.c
-  * @brief          : Main program body
+  * @brief          : Read the accelerometer data using polling mode, and send
+  * 				  the data via USB
   ******************************************************************************
   * @attention
   *
