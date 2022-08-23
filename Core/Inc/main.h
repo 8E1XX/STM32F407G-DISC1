@@ -57,6 +57,13 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define NCS_ACC_Pin GPIO_PIN_3
+#define NCS_ACC_GPIO_Port GPIOE
+#define BLUE_LED_Pin GPIO_PIN_15
+#define BLUE_LED_GPIO_Port GPIOD
+#define ACC_INT_Pin GPIO_PIN_0
+#define ACC_INT_GPIO_Port GPIOE
+#define ACC_INT_EXTI_IRQn EXTI0_IRQn
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

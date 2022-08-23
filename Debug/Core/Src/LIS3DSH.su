@@ -1,7 +1,9 @@
-LIS3DSH.cpp:10:6:void LIS3DSH::init(SPI_HandleTypeDef*, GPIO_TypeDef*, uint16_t)	24	static
-LIS3DSH.cpp:30:6:void LIS3DSH::writeToAddressPol(uint8_t, uint8_t)	24	static
-LIS3DSH.cpp:37:9:uint8_t LIS3DSH::readFromAddressPol(uint8_t)	32	static
-LIS3DSH.cpp:51:6:void LIS3DSH::readDataRawPol()	40	static
-LIS3DSH.cpp:63:9:int16_t LIS3DSH::getXRaw()	16	static
-LIS3DSH.cpp:67:9:int16_t LIS3DSH::getYRaw()	16	static
-LIS3DSH.cpp:71:9:int16_t LIS3DSH::getZRaw()	16	static
+LIS3DSH.cpp:20:6:void LIS3DSH::init(SPI_HandleTypeDef*, GPIO_TypeDef*, uint16_t)	24	static
+LIS3DSH.cpp:37:6:void LIS3DSH::writeToAddressPol(uint8_t, uint8_t)	24	static
+LIS3DSH.cpp:44:9:uint8_t LIS3DSH::readFromAddressPol(uint8_t)	32	static
+LIS3DSH.cpp:59:6:void LIS3DSH::readDataRawPol()	40	static
+LIS3DSH.cpp:71:9:uint8_t LIS3DSH::readDataDMA()	16	static
+LIS3DSH.cpp:81:6:void LIS3DSH::readDataDMAComplete()	16	static
+LIS3DSH.cpp:88:9:int16_t LIS3DSH::getXRaw()	16	static
+LIS3DSH.cpp:92:9:int16_t LIS3DSH::getYRaw()	16	static
+LIS3DSH.cpp:96:9:int16_t LIS3DSH::getZRaw()	16	static
